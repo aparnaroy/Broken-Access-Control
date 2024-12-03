@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /84238e15-7f29-6402-acd4-2a30cba215ad.txt
+Disallow: /07938e73-b437-17eb-29f5-d35dd3a80ba3.txt
+Disallow: /61524e94-e876-7880-81d4-511e49ee2447.txt
+Disallow: /22338e7c-cb6c-301e-bc19-aa50f24c4231.txt
