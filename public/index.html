@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bada Beep Boop</title>
 
-    <!-- update the version number as needed -->
     <script defer src="/__/firebase/11.0.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/11.0.2/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-functions-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
   </head>
   <body>
@@ -22,25 +13,6 @@
       <h1>Hi human.</h1>
       <p>You're not a robot right? You better not be.</p>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-    <pre id="file-content">Loading...</pre>
-
   </body>
   <script type="module" src="./js/init.js"></script>
-  <!-- <script>
-    // Fetch the .txt file and display its content
-    fetch('a.txt')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to load the file');
-        }
-        return response.text();
-      })
-      .then(data => {
-        document.getElementById('file-content').textContent = data;
-      })
-      .catch(error => {
-        document.getElementById('file-content').textContent = `Error: ${error.message}`;
-      });
-  </script> -->
 </html>
